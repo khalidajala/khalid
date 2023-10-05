@@ -1,0 +1,491 @@
+body {
+    background-color: rgb(171, 208, 223);
+    margin: 0;
+    padding: 0;
+}
+#sec1 {
+    background-color: black;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+h1 {
+    font-size: 200%;
+}
+#call {
+    color: white;
+    padding-left: 15px;
+    font-size: 100%;
+}
+#mail {
+    color: white;
+    padding-right: 20px;
+    font-size: 100%;
+}
+#sec2 {
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.list1 {
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    color: blue;
+}
+.sec3 {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.sec9 {
+    width: 75%;
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.t-img {
+    width: 500px;
+
+}
+.f-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 3% 5%;
+    border-radius: 10%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.f-button:hover {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+}
+.main-sec1 {
+    background-color: white;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.f-div {
+    background-color: white;
+    position: relative;
+    width: 33%;
+    top: -40%;
+    text-align: center;
+    padding: 10px;
+    margin-top: -100px;
+    box-shadow: 5px 5px 10px rgba(black);
+}
+.f-div img {
+    width: 50%;
+    fill: gray;
+    transition: fill 0.3s;
+}
+.f-div img {
+    fill: white;
+}
+.f-div:hover {
+    background-color: orange;
+    color: white;
+}
+.sec4 {
+    background-color: white;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    gap: 2%;
+    max-width: 100%;
+    width: 90%;
+} 
+.s-img {
+    width: 500px;
+    margin-top: 40px;
+}
+.f-h2 {
+    font-size: 3rem;
+    color: blue;
+}
+.f-p {
+    font-size: 100%;
+    width: larger;
+}
+#f-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 3% 5%;
+    border-radius: 10%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#f-button:hover {
+    background-color: transparent;
+    border: 2px solid blue;
+    color: blue;
+}
+.sec5 {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.s-h2 {
+    text-align: center;
+    font-size: 300%;
+}
+.d-sec {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 10px;
+}
+.d-img:hover {
+    background-color: orange;
+    color: white;
+    fill: white;
+}
+.d-img {
+    text-align: center;
+    background-color: white;
+    position: relative;
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+}
+.d-img img {
+    width: 20%;
+}
+.s-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 2% 4%;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 41%;
+}
+.s-button:hover {
+    background-color: transparent;
+    border: 2px solid blue;
+    color: blue;
+}
+.last-sec {
+    text-align: center;
+    background-color: rgb(2, 2, 83);
+    color: white;
+}
+.last-sec > div > h3 {
+    font-size: 30px;
+    color: white;
+}
+.last-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hehe img {
+    width: 100px;
+    fill: white;
+}
+.hehe p {
+    font-size: 30px;
+}
+.footer {
+    background-color: rgb(2, 2, 83);
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+.footer hr {
+    border: 1px solid white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer div > h3 {
+    padding-top: 50px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 767px) {
+    body {
+    background-color: rgb(171, 208, 223);
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 100% ;
+    }
+    #sec1 {
+        max-width: 100%;
+        gap: 20px;
+    }
+    #call {
+        font-size: 100%;
+        width: 50%;
+    }
+    #mail {
+        font-size: 100%;
+    }
+	.sec3 {
+    width: 90%;
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-left: 10px;
+    padding-top: 50px;
+	}
+	.f-h2 {
+		width: 100%;
+        font-size: 150%;
+	}
+    .f-button {
+        margin-bottom: 50px;
+    }
+
+    .f-div {
+        background-color: white;
+        display: block;
+        margin-bottom: 100px;
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 5px 5px 10px rgba(black);
+    }
+    .main-sec1 {
+    background-color: white;
+    display: block;
+    width: 80%;
+    gap: 10px;
+    padding-top: 200px;
+    }
+    .sec4 {
+        max-width: 100%;
+        width: 90%;
+        display: block;
+        text-align: left;
+        margin-top: -100px;
+        margin-left: 10px;
+    }
+    .s-img {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .sec9 {
+        display: block;
+        width: 90%;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .t-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .d-img {
+        background-color: white;
+        display: block;
+        margin-bottom: 100px;
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 5px 5px 10px rgba(black);
+    }
+    .d-sec {
+    background-color: white;
+    display: block;
+    width: 80%;
+    gap: 10px;
+    padding-top: 200px;
+    }
+    .last-sec {
+        text-align: center;
+        background-color: rgb(2, 2, 83);
+        color: white;
+    }
+    .last-sec > div > h3 {
+        font-size: 20px;
+        color: white;
+    }
+    .last-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .hehe img {
+        width: 100px;
+        fill: white;
+    }
+    .hehe p {
+        font-size: 30px;
+    }
+    .footer {
+        background-color: rgb(2, 2, 83);
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+    .footer hr {
+        border: 1px solid white;
+        width: 70%;
+    }
+    .footer div > h3 {
+        font-size: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+/* @media (max-width: 1000px) {
+    body {
+        background-color: rgb(171, 208, 223);
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        width: 100% ;
+        }
+        #sec1 {
+            max-width: 100%;
+            gap: 20px;
+        }
+        #call {
+            font-size: 100%;
+            width: 50%;
+        }
+        #mail {
+            font-size: 100%;
+        }
+        .sec3 {
+        width: 90%;
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+        margin-left: 10px;
+        padding-top: 50px;
+        }
+        .f-h2 {
+            width: 100%;
+            font-size: 150%;
+        }
+        .f-button {
+            margin-bottom: 50px;
+        }
+    
+        .f-div {
+            background-color: white;
+            display: block;
+            margin-bottom: 100px;
+            width: 90%;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(black);
+        }
+        .main-sec1 {
+        background-color: white;
+        display: block;
+        width: 80%;
+        gap: 10px;
+        padding-top: 200px;
+        }
+        .sec4 {
+            max-width: 100%;
+            width: 90%;
+            display: flex;
+            text-align: left;
+            margin-top: -100px;
+            margin-left: 10px;
+        }
+        .s-img {
+            width: 500px;
+            margin-top: 40px;
+        }
+        .sec9 {
+            display: block;
+            width: 90%;
+            text-align: left;
+            margin-left: 10px;
+        }
+        .t-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .d-img {
+            background-color: white;
+            display: block;
+            margin-bottom: 100px;
+            width: 90%;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 5px 5px 10px rgba(black);
+        }
+        .d-sec {
+        background-color: white;
+        display: block;
+        width: 80%;
+        gap: 10px;
+        padding-top: 200px;
+        }
+        .last-sec {
+            text-align: center;
+            background-color: rgb(2, 2, 83);
+            color: white;
+        }
+        .last-sec > div > h3 {
+            font-size: 20px;
+            color: white;
+        }
+        .last-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .hehe img {
+            width: 100px;
+            fill: white;
+        }
+        .hehe p {
+            font-size: 30px;
+        }
+        .footer {
+            background-color: rgb(2, 2, 83);
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+        }
+        .footer hr {
+            border: 1px solid white;
+            width: 70%;
+        }
+        .footer div > h3 {
+            font-size: 10px;
+            padding-bottom: 10px;
+        }
+} */
